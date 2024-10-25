@@ -9,6 +9,14 @@ if condition:
     # Code to execute if condition is True
 
 ```
+#### Example
+```python
+a = 8
+rem = 8 % 2
+if rem == 0:
+    print("Even number")
+
+```
 
 2. ```if-else``` statement: This statement provides an alternative path if the ```if``` condition evaluates to ```False```. If the condition is ```True```, the code inside the ```if``` block executes; otherwise, the code inside the ```else``` block executes.
 
@@ -17,6 +25,16 @@ if condition:
     # Code to execute if condition is True
 else:
     # Code to execute if condition is False
+```
+#### Example
+```python
+a = 8
+rem = 8 % 2
+if rem == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
 ```
 
 3. ```if-elif-else``` statement: This statement allows multiple conditions to be checked sequentially. If the first condition is ```False```, it checks the next ```elif``` condition and continues until a ```True``` condition is found. If no conditions are ```True```, the ```else``` block (if provided) executes as a default.
@@ -29,6 +47,18 @@ elif condition2:
 else:
     # Code to execute if neither condition1 nor condition2 is True
 ```
+
+```python
+a = 8
+if a > 0:
+    print("Positive number")
+elif a < 0:
+    print("Negative number")
+else:
+    print("Number is zero")
+```
+
+
 
 4. A nested ```if``` condition in Python (or any other programming language) is an ```if``` statement that exists inside another ```if``` statement. It allows you to add multiple levels of decision-making, where a new condition is checked only if the previous condition(s) are met.
 
@@ -44,4 +74,18 @@ if condition1:
         # Code to execute if condition1 is True but condition2 is False
 else:
     # Code to execute if condition1 is False
+```
+#### Example
+
+```python
+a = 8
+rem = 8 % 2
+if rem == 0:
+    print("Even number")
+    if rem > 5:
+       print("Even number greater than five")
+    else:
+        print("Even number less than and equal five")
+else:
+    print("Odd number")
 ```
