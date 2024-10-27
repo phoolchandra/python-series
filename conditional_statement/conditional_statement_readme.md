@@ -55,7 +55,7 @@ if a > 0:
 elif a < 0:
     print("Negative number")
 else:
-    print("Number is zero")
+    print("Zero is neither positive nor negative")
 ```
 
 
