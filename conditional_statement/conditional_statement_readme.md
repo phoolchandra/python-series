@@ -1,5 +1,5 @@
 # Condtional Statement
-Conditional statements, such as if, if-else, and if-elif-else, are used in programming to execute specific blocks of code based on whether a given condition or set of conditions evaluates to True or False. They allow you to control the flow of your program, enabling it to make decisions based on different inputs or variables.
+Conditional statements, such as ```if```, ```if-else```, and ```if-elif-else```, are used in programming to execute specific blocks of code based on whether a given condition or set of conditions evaluates to True or False. They allow you to control the flow of your program, enabling it to make decisions based on different inputs or variables.
 
 1. ```if``` statement: This is the simplest conditional statement. It executes a block of code only if the specified condition is ```True```. If the condition is ```False```, the code inside the ```if``` block is skipped.
 
